@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Tenali+Ramakrishna" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/styleAR.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>The Roselina</title>
+    </head>
+    <body>
+        <!--start header-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+            <a class="navbar-brand" href="#">Roselina</a>
+            <button  id='humborgerIcon' class="d-lg-none" type="button" aria-controls="navbarMenu" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>            
+            <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item"><a href="#" class="navbar-link active">Home</a></li>
+                <li class="navbar-item"><a href="#services" class="navbar-link">Services</a></li>
+                <li class="navbar-item"><a href="#projects" class="navbar-link">Gallery</a></li>
+<!--                <li class="navbar-item"><a href="#about-us" class="navbar-link">About</a></li>-->
+                <li class="navbar-item"><a href="#contact-us" class="navbar-link">Contact</a></li>
+            </ul>
+            </div>
+            </div>
+        </nav>
+        <!--end header-->
+
+        <!--start about us-->
+        <div class="about-us" id="about-us">
+            <div class="image img-fluid">
+                <div class="overlay-box">
+                    <div>
+                        <h2>This is Roselina.</h2>
+                        <p>A designer</p>
+<!--
+                        <button>Learn More</button>
+-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end about us-->
+        
+        <!--start services-->
+        <div class="services text-center" id="services">
+            <div class="container">
+            <h2>What I do !</h2>
+<!--            <p>I design websites, apps and logos.</p>-->
+            <div class="row">
+                <div class="col-md-4 box">
+                    <img src="img/web%20dev2.png" alt="web"/>
+                    <h3>Web Design</h3>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/app%20dev.png" alt="app"/>
+                    <h3>App design</h3>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/logo%20des.png" alt="logo"/>
+                    <h3>Logo Design</h3>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--end services-->
+        
+        <!--start projects-->
+        <div class="projects text-center" id="projects">
+            <div class="container">
+                <h2>Gallery</h2>
+                <ul class="list-unstyled row no-gutters">
+                    <li data-class="all" class="col-md">All</li>    
+                    <li data-class=".websites" class="col-md">Websites</li>
+                    <li data-class=".apps" class="col-md">Apps</li>    
+                    <li data-class=".logos" class="col-md">Logos</li>
+                </ul>
+            </div>
+            <div class="shuffle-images">
+                <div class="row">
+                    <div class="col-sm">
+                        <img class="websites" src="img/1.jpg" alt="img">
+                    </div>
+                    <div class="col-sm">
+                        <img class="apps" src="img/2.jpg" alt="img">
+                    </div>
+                    <div class="col-sm">
+                        <img class="logos" src="img/3.jpg" alt="img">
+                    </div>
+                    <div class="col-sm">
+                        <img class="websites" src="img/4.jpg" alt="img">
+                    </div> 
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <img class="logos" src="img/5.jpg" alt="img">
+                    </div>
+                    <div class="col-sm">
+                        <img class="websites" src="img/6.jpg" alt="img">
+                    </div>
+                    <div class="col-sm">
+                        <img class="apps" src="img/7.jpg" alt="img">
+                    </div>
+                    <div class="col-sm">
+                        <img class="websites" src="img/8.jpg" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end projects-->
+
+        <!--start contact us-->
+        <div class="contact-us" id="contact-us">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <div class="row">
+                    <div class="col-md form-div">
+                        <form>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleSelect1">Choose Service</label>
+                            <select class="form-control custom-select" id="exampleSelect1">
+                              <option>Web Design</option>
+                              <option>App Design</option>
+                              <option>Logo Design</option>
+                            </select>
+                          </div>
+                        </form>
+                    </div>
+                    <div class="col-md msg-div">
+                        <div class="form-group">
+                            <label for="exampleTextarea">Message</label>
+                            <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                            <button type="submit" class="btn">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end contact us-->
+        
+        <!--start footer-->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <p class="text-md-center"> &copy; All copyrights reserved.</p>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                    <ul class="unstyled-list text-md-center ">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>                        
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end footer-->
+        <script>FontAwesomeConfig = { searchPseudoElements: true };</script>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/poper.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
